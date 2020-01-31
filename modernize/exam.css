@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.container{
+    width: 970px;
+    margin: 0px auto;
+    padding: 10px;
+    background-image: linear-gradient(rgb(27, 27, 27), rgb(14, 14, 14), rgb(7, 7, 7));
+}
+    div.container div.header h3{
+        color: aliceblue;
+        vertical-align: top;
+        display: inline-block;
+        padding: 15px;
+        margin-left: 540px;
+    }
+div.container div.main{
+    background-image: linear-gradient(rgb(63, 62, 62), rgb(53, 53, 53), rgb(17, 17, 17));
+    border-radius: 5px;
+}   
+    div.container div.main ul li{
+        display: inline-block;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(63, 62, 62), rgb(53, 53, 53), rgb(83, 83, 83));
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;            
+    }    
+    div.container div.main img{
+        width: 970px;
+        margin-top: 5px;
+    }
+div.container div.content{
+    display: block;        
+    background-image: linear-gradient(rgb(29, 29, 29), rgb(39, 39, 39), rgb(20, 20, 20));
+    height: 100px;
+}
+    div.container div.content img{
+        height: 25px;
+    }
+    div.container div.content h3{
+        display: inline-block;
+        color: orange;
+        vertical-align: top;
+        text-align: center;
+        margin-left: 15px;
+    }
+    div.container div.content p{
+        vertical-align: top; 
+        display: inline-block;                
+        width: 140px;           
+        color: aliceblue;               
+        margin-left: 50px;              
+    }
+    div.container div.content div.rid, div.ips, div.tel, div.sem{
+        display: inline-block;
+        width: 200px;
+        height: 80px;
+        background-image: linear-gradient(rgb(29, 29, 29), rgb(24, 24, 24), rgb(27, 27, 27));
+        padding: 10px;
+    }
+div.container div.sub{
+    padding: 20px;
+    display: block;
+}
+    div.container div.sub h2{
+        display: inline-block;
+        color: aliceblue;
+
+    }
+    div.container div.sub p{
+        display: inline-block;
+        color: aliceblue;
+        width: 600px;
+        padding: 10px;
+        padding-left: 0px;
+    }
+    div.container div.sub button{
+        width: 100px;
+        padding: 7px;
+        background-color: darkorange;
+        color: aliceblue;
+        border-radius: 5px;
+        vertical-align: top;
+        margin-left: 200px;        
+    }
+div.container div.portfolio{
+    background-image: linear-gradient(rgb(44, 43, 43), rgb(53, 53, 53), rgb(17, 17, 17));
+}
+    div.container div.portfolio div.head h3{
+        display: inline-block;
+        color: aliceblue;
+        padding: 20px;
+        width: 150px;
+    }
+    div.container div.portfolio div.head a{
+        margin-left: 600px;
+        color: darkorange;
+        text-decoration: none;
+        padding: 20px;
+        font-size: smaller;
+        vertical-align: middle;
+    }
+    div.container div.portfolio div.message{
+        vertical-align: top;
+        display: inline-block;
+        width: 199px;
+        margin: 10px;
+        padding: 10px;
+    }
+    div.container div.portfolio div.message img{             
+        width: 195px;
+        padding: 5px;
+    }
+    div.container div.portfolio div.message h4{
+        display: inline-block;
+        color: orange;
+        padding: 10px;
+        padding-left: 0px;
+    }
+    div.container div.portfolio div.message p{
+        color: aliceblue;        
+    }
+    div.container div.portfolio a{
+        color: darkgrey;
+        font-size: smaller;
+        vertical-align: bottom;
+        margin-left: 870px;
+    }
